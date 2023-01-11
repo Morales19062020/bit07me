@@ -1,3 +1,3 @@
-'use strict'
- 
-console.log ('Luis Morales')
+"use strict";
+
+console.log("Luis Morales");
