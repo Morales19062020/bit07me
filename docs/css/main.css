@@ -1,15 +1,19 @@
 
 body{
-  background-color: aquamarine ;
+  background-image: url("/bit07me/docs/img/fondo.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  
   
 }
 header,nav
 ,main,footer{
-  border: 2px solid black;
+  border: 2px solid transparent;
   border-radius: 20px;
 }
 h2, p{
   float:center ;
+  color: white;
 
 }
 .me{
@@ -21,33 +25,42 @@ h1{
   text-align: center;
   font-family: cursive;
   font-size: 50px;
-  color: brown;
+  color: greenyellow;
 } 
 .acerca{
-  text-align: center;;
+  text-align: center;
   font-family: cursive;
-  font-size: 30px;
+  font-size: 40px;
+  color: white;
 }
+
 .pa{
   text-align: center;
   font-family: cursive;
   font-size: 25px;
+  color: white;
   }
 
 nav{
   font-size: 40px;
   font-family: cursive;
   text-align: center;
+  color: white;
+}
+.proyecto{
+  color: deepskyblue;
 }
 ul,li{
   font-size: 25px;
   font-family: cursive;
+  color: white;
 }
 .links{
   text-align: center;
   font-family: cursive;
   font-size: 25px;
   margin-left: 16rem;
+  color: greenyellow;
   
 }
 
@@ -65,7 +78,7 @@ ul,li{
 
  header,nav
  ,main,footer{
-  border: 2px solid black;
+  border: 2px solid transparent;
   border-radius: 20px;
   max-width: 100%;
 }
@@ -82,7 +95,7 @@ ul,li{
   }
   header,nav
 ,main,footer{
-  border: 2px solid black;
+  border: 2px solid transparent;
   border-radius: 20px;
   max-width: 100%;
 }
